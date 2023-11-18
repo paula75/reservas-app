@@ -1,5 +1,24 @@
 .logo-servicio{
- height: 100px;   
+ height: 80px;   
+}
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.top-logo{
+    height: 10px;
 }
 
 ion-card {
@@ -7,5 +26,15 @@ ion-card {
     justify-content: center;
     align-items: center;
     display: flex;
-    border-radius: 15px;
+    border-radius: 10px;
+    
  }
+
+.search-bar {
+  margin-bottom: 30px;
+}
+
+// use size of viewport
+.service-name{
+    font-size: 4vw;
+}
