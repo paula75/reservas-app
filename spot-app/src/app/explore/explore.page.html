@@ -1,7 +1,6 @@
 <ion-content>
 
 
-
   <ion-grid>
     <ion-row class="ion-justify-content-end top-logo">
       <ion-col size ="3" >
@@ -9,14 +8,12 @@
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-back-button defaultHref="/login"></ion-back-button> 
+      <ion-back-button defaultHref="/"></ion-back-button> 
     </ion-row>
     <ion-row class="titulo">
       ¿Qué buscas?
     </ion-row>
   </ion-grid>
-
-
 
 <div class="search-bar">
   <ion-searchbar color="tertiary"  animated="true" placeholder="Animated"></ion-searchbar>
@@ -25,7 +22,7 @@
   <ion-grid>
     <ion-row>
       <ion-col size="6" *ngFor="let item of servicios"  class="icono-columna" >
-        <ion-card color="tertiary">
+        <ion-card color="tertiary" routerLink="/explorar/empresas">
           <div class="ion-justify-content-center"> 
             <div class="card-image">
               <img class="logo-servicio" src="{{item.icon}}" />
@@ -41,8 +38,5 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-
-
-
 
 </ion-content>

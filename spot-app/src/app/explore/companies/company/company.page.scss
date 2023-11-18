@@ -1,5 +1,8 @@
 .logo-servicio{
- height: 80px;   
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 11vw;   
 }
 
 .titulo {
@@ -10,32 +13,29 @@
     margin-bottom: 10px;
 }
 
+.subtitulo {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 .card-image{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
 }
-
+   
 .top-logo{
     margin-top: 10px;
     height: 10px;
 }
-
+   
 ion-card {
     border: 3px solid black;
-    justify-content: center;
-    align-items: center;
     display: flex;
     border-radius: 10px;
     
- }
-
-.search-bar {
-  margin-bottom: 30px;
-}
-
-// use size of viewport
-.service-name{
-    font-size: 4vw;
 }

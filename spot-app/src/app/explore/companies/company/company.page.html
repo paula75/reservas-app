@@ -1,0 +1,30 @@
+<ion-content>
+
+  <ion-grid>
+    <ion-row class="ion-justify-content-end top-logo">
+      <ion-col size ="3" >
+        <img class="logo-app" src="/assets/icon/favicon.png" />
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-back-button defaultHref="/explorar/empresas"></ion-back-button> 
+    </ion-row>
+    <ion-row class="titulo">
+      Manito de Gato
+    </ion-row>
+    <ion-row class="subtitulo">
+      Peluqueria
+    </ion-row>
+  </ion-grid>
+
+
+  <div class="search-bar">
+    <ion-datetime 
+    presentation="date"
+    locale="es-ES"
+    [firstDayOfWeek]="1"
+    minuteValues="0,15,30,45" dayValues="5,10,15,20,25,30"></ion-datetime>
+  </div>
+
+
+</ion-content>
