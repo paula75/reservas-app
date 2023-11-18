@@ -1,0 +1,40 @@
+.title-app {
+  font-size: 64px;
+  color: #EFEFD0;
+}
+
+.top-logo {
+  margin-top: 20px;
+}
+
+.boton-info {
+  margin-top: 50px;
+}
+.espacio-izquierdo {
+    width: 20px; /* Ajusta el ancho del espacio en blanco a la izquierda según tus necesidades */
+  }
+  
+.elemento-derecha {
+text-align: right; /* Alinea el contenido a la derecha */
+}
+
+.input-con-fondo-negro {
+    background-color: #EFEFD0; /* Establece el color de fondo a negro */
+    margin: 10px;
+    padding: 10px !important;
+    width: 300px;
+    color: black;
+  }
+
+
+.botones-container ion-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente dentro de cada columna */
+    margin-bottom: 10px; /* Agrega espacio vertical entre las columnas */
+}
+  
+.boton-iniciar, .boton-registrarme {
+    margin-bottom: 10px; /* Agrega espacio vertical entre los botones */
+  }
+  
